@@ -1,5 +1,6 @@
 export const NavLinks = [
   {
+    id: 1,
     title: "New & Featured",
     Links: [
       {
@@ -57,6 +58,7 @@ export const NavLinks = [
     ],
   },
   {
+    id: 2,
     title: "Sale",
     Links: [
       {
