@@ -31,6 +31,11 @@ import MenSale from "./Sales/menSale/MenSale";
 // women sale
 import WomenSale from "./Sales/womenSale/WomenSale";
 
+// login
+import Login from "./Login";
+// signup
+import SignUp from "./SignUp";
+
 export {
   MainPage,
   NotFound,
@@ -50,4 +55,6 @@ export {
   TwoSale,
   MenSale,
   WomenSale,
+  Login,
+  SignUp,
 };
