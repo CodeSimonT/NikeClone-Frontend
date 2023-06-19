@@ -103,3 +103,73 @@ export const NavLinks = [
     ],
   },
 ];
+
+export const FooterLinks = [
+  {
+    id: 1,
+    title: "FIND A STORE",
+  },
+  {
+    id: 2,
+    title: "BECOME A MEMBER",
+  },
+  {
+    id: 3,
+    title: "STUDENT DISCOUNTS",
+  },
+  {
+    id: 4,
+    title: "Send Us Feedback",
+  },
+];
+
+export const FooterSubLinks = [
+  {
+    id: 1,
+    title: "GET HELP",
+    Links: [
+      {
+        id: 1,
+        title: "Order Status",
+      },
+      {
+        id: 2,
+        title: "Delivery",
+      },
+      {
+        id: 3,
+        title: "Delivery",
+      },
+      {
+        id: 4,
+        title: "Payment Options",
+      },
+      {
+        id: 5,
+        title: "Contact Us",
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "About SneakrZ",
+    Links: [
+      {
+        id: 1,
+        title: "News",
+      },
+      {
+        id: 2,
+        title: "Career",
+      },
+      {
+        id: 3,
+        title: "Investors",
+      },
+      {
+        id: 4,
+        title: "Sustainability",
+      },
+    ],
+  },
+];

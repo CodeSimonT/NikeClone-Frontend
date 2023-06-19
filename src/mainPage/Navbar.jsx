@@ -13,7 +13,7 @@ const Navbar = () => {
             {/* logo */}
             <div className="col-6 col-lg-3 d-flex align-items-center py-2">
               <a className="navbar-brand" href="#">
-                Logo
+                SneakrZ
               </a>
             </div>
             {/* navlinks */}
