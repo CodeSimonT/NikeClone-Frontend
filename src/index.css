@@ -5,6 +5,15 @@
   --footerTextColor: #7e7e7e;
   --navbarSubTextColor: #bbbbbb;
 }
+
+@font-face {
+  font-family: urbanist;
+  src: url("./fonts/Urbanist/Urbanist-SemiBold.ttf");
+}
+@font-face {
+  font-family: urbanistBold;
+  src: url("./fonts/Urbanist/Urbanist-ExtraBold.ttf");
+}
 /* globals */
 li {
   list-style: none;
@@ -29,7 +38,15 @@ a {
 .textGray {
   color: var(--darkgray);
 }
-
+.urbanistBold {
+  font-family: urbanistBold;
+}
+.urbanist {
+  font-family: urbanist;
+}
+.whiteSmoke {
+  color: whitesmoke;
+}
 /* end globals */
 
 /* nav design */
