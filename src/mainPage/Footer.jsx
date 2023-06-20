@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="row">
             {/* col 1 */}
             <div className="col-12 col-sm-6 col-lg-3 mb-3">
-              <div className="d-flex mt-4">
+              <div className="d-flex mt-5">
                 {socials.map((item, index) => (
                   <div
                     className={`${styling.flexCenter} socialStyle me-2 pointer`}
@@ -30,7 +30,7 @@ const Footer = () => {
               </div>
             </div>
             {/* col 2 */}
-            <div className="col-12 col-sm-6 col-lg-3 mt-0 mt-sm-3">
+            <div className="col-12 col-sm-6 col-lg-3 mt-0 mt-sm-5">
               <ul className="p-0">
                 {FooterLinks.map((item) => (
                   <li key={item.id} className="bold mb-1 pointer">
@@ -45,7 +45,7 @@ const Footer = () => {
               <div className="row">
                 {FooterSubLinks.map((item) => (
                   <div
-                    className="col-12 col-sm-6 mt-0 mt-lg-3 textGray"
+                    className="col-12 col-sm-6 mt-0 mt-lg-5 textGray"
                     key={item.id}
                   >
                     <h6>{item.title} </h6>
