@@ -8,14 +8,14 @@ const Navbar = () => {
   // const [hover, setHover] = useState(false);
   return (
     <>
-      <nav className="navbar position-relative">
+      <nav className="navbar position-relative urbanist">
         <div className="container-fluid d-flex justify-content-center">
           {/* grid container */}
           <div className="row containerF">
             {/* logo */}
             <div className="col-6 col-lg-3 d-flex align-items-center py-2">
               <a className="navbar-brand" href="#">
-                <h4 className="bold">SneakrZ</h4>
+                <h4 className="urbanistBold">SneakrZ</h4>
               </a>
             </div>
             {/* navlinks */}

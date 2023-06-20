@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
-      <footer className="footerStyle text-white">
+      <footer className="footerStyle text-white urbanist">
         <div className="container-fluid">
           <div className="row">
             {/* col 1 */}
@@ -30,7 +30,7 @@ const Footer = () => {
               </div>
             </div>
             {/* col 2 */}
-            <div className="col-12 col-sm-6 col-lg-3 mt-0 mt-sm-5">
+            <div className="col-12 col-sm-6 col-lg-3 mt-0 mt-sm-5 textGray">
               <ul className="p-0">
                 {FooterLinks.map((item) => (
                   <li key={item.id} className="bold mb-1 pointer">
@@ -64,7 +64,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="text-center pt-4">
+          <div className="text-center pt-4 textGray">
             © 2023 Nike, Inc. All Rights Reserved
           </div>
         </div>
