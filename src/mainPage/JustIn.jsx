@@ -1,205 +1,159 @@
 import React, { useEffect } from "react";
-import App from "./App.css";
+import {
+  S1,
+  S2,
+  S3,
+  S4,
+  S5,
+  S6,
+  S7,
+  S8,
+  S9,
+  S10,
+  S11,
+  S12,
+  S13,
+  S14,
+  S15,
+  S16,
+  S17,
+  S18,
+  S19,
+  S20,
+  S21,
+  S22,
+  S23,
+  S24,
+  S25,
+  S26,
+  S27,
+  S28,
+  S29,
+  S30,
+  S31,
+  S32,
+  S33,
+} from "../assets/images/index";
 
 function JustIn() {
   useEffect(() => {
-    var splide = new Splide(".splide", {
+    var splide = new Splide("#splidejustin", {
       perPage: 4,
       gap: "1rem",
       type: "loop",
       autoscroll: { speed: 1 },
       autoplay: true,
       rewind: true,
+      pagination: false,
     });
     splide.mount();
   }, []);
 
   return (
-    <div className="splide my-5" id="splide">
+    <div className="splide my-5" id="splidejustin">
       <div className="splide__track">
         <ul className="splide__list">
           <li className="splide__slide">
-            <img src="src/images/S1.webp" className="img-fluid imageSplide" />
+            <img src={S1} className="img-fluid imageSplide" />
           </li>
 
           <li className="splide__slide">
-            <img src="src/images/S2.webp" className="img-fluid imageSplide" />
+            <img src={S2} className="img-fluid imageSplide" />
           </li>
 
           <li className="splide__slide">
-            <img src="src/images/S3.webp" className="img-fluid imageSplide" />
+            <img src={S3} className="img-fluid imageSplide" />
           </li>
 
           <li className="splide__slide">
-            <img src="src/images/S4.webp" className="img-fluid imageSplide" />
+            <img src={S4} className="img-fluid imageSplide" />
           </li>
           <li className="splide__slide">
-            <img src="src/images/S5.webp" className="img-fluid imageSplide" />
+            <img src={S5} className="img-fluid imageSplide" />
           </li>
           <li className="splide__slide">
-            <img src="src/images/S6.webp" className="img-fluid imageSplide" />
+            <img src={S6} className="img-fluid imageSplide" />
           </li>
           <li className="splide__slide">
-            <img src="src/images/S7.webp" className="img-fluid imageSplide" />
+            <img src={S7} className="img-fluid imageSplide" />
           </li>
           <li className="splide__slide">
-            <img src="src/images/S8.webp" className="img-fluid imageSplide" />
+            <img src={S8} className="img-fluid imageSplide" />
           </li>
           <li className="splide__slide">
-            <img src="src/images/S9.webp" className="img-fluid imageSplide" />
+            <img src={S9} className="img-fluid imageSplide" />
           </li>
           <li className="splide__slide">
-            <img src="src/images/S10.webp" className="img-fluid imageSplide" />
+            <img src={S10} className="img-fluid imageSplide" />
           </li>
           <li className="splide__slide">
-            <img
-              src="src/assets/images/S11.webp"
-              className="img-fluid imageSplide"
-            />
+            <img src={S11} className="img-fluid imageSplide" />
           </li>
           <li className="splide__slide">
-            <img
-              src="src/assets/images/S12.webp"
-              className="img-fluid imageSplide"
-            />
+            <img src={S12} className="img-fluid imageSplide" />
           </li>
           <li className="splide__slide">
-            <img
-              src="src/assets/images/S13.webp"
-              className="img-fluid imageSplide"
-            />
+            <img src={S13} className="img-fluid imageSplide" />
           </li>
           <li className="splide__slide">
-            <img
-              src="src/assets/images/S14.webp"
-              className="img-fluid imageSplide"
-            />
+            <img src={S14} className="img-fluid imageSplide" />
           </li>
           <li className="splide__slide">
-            <img
-              src="src/assets/images/S15.webp"
-              className="img-fluid imageSplide"
-            />
+            <img src={S15} className="img-fluid imageSplide" />
           </li>
           <li className="splide__slide">
-            <img
-              src="src/assets/images/S16.webp"
-              className="img-fluid imageSplide"
-            />
+            <img src={S16} className="img-fluid imageSplide" />
           </li>
           <li className="splide__slide">
-            <img
-              src="src/assets/images/S17.webp"
-              className="img-fluid imageSplide"
-            />
+            <img src={S17} className="img-fluid imageSplide" />
           </li>
           <li className="splide__slide">
-            <img
-              src="src/assets/images/S18.webp"
-              className="img-fluid imageSplide"
-            />
+            <img src={S18} className="img-fluid imageSplide" />
           </li>
           <li className="splide__slide">
-            <img
-              src="src/assets/images/S19.webp"
-              className="img-fluid imageSplide"
-            />
+            <img src={S19} className="img-fluid imageSplide" />
           </li>
           <li className="splide__slide">
-            <img
-              src="src/assets/images/S19.webp"
-              className="img-fluid imageSplide"
-            />
+            <img src={S20} className="img-fluid imageSplide" />
           </li>
           <li className="splide__slide">
-            <img
-              src="src/assets/images/S19.webp"
-              className="img-fluid imageSplide"
-            />
+            <img src={S21} className="img-fluid imageSplide" />
           </li>
           <li className="splide__slide">
-            <img
-              src="src/assets/images/S20.webp"
-              className="img-fluid imageSplide"
-            />
+            <img src={S22} className="img-fluid imageSplide" />
           </li>
           <li className="splide__slide">
-            <img
-              src="src/assets/images/S21.webp"
-              className="img-fluid imageSplide"
-            />
+            <img src={S23} className="img-fluid imageSplide" />
           </li>
           <li className="splide__slide">
-            <img
-              src="src/assets/images/S22.webp"
-              className="img-fluid imageSplide"
-            />
+            <img src={S24} className="img-fluid imageSplide" />
           </li>
           <li className="splide__slide">
-            <img
-              src="src/assets/images/S23.webp"
-              className="img-fluid imageSplide"
-            />
+            <img src={S25} className="img-fluid imageSplide" />
           </li>
           <li className="splide__slide">
-            <img
-              src="src/assets/images/S24.webp"
-              className="img-fluid imageSplide"
-            />
+            <img src={S26} className="img-fluid imageSplide" />
           </li>
           <li className="splide__slide">
-            <img
-              src="src/assets/images/S25.webp"
-              className="img-fluid imageSplide"
-            />
+            <img src={S27} className="img-fluid imageSplide" />
           </li>
           <li className="splide__slide">
-            <img
-              src="src/assets/images/S26.webp"
-              className="img-fluid imageSplide"
-            />
+            <img src={S28} className="img-fluid imageSplide" />
           </li>
           <li className="splide__slide">
-            <img
-              src="src/assets/images/S27.webp"
-              className="img-fluid imageSplide"
-            />
+            <img src={S29} className="img-fluid imageSplide" />
           </li>
           <li className="splide__slide">
-            <img
-              src="src/assets/images/S28.webp"
-              className="img-fluid imageSplide"
-            />
+            <img src={S30} className="img-fluid imageSplide" />
           </li>
           <li className="splide__slide">
-            <img
-              src="src/assets/images/S29.webp"
-              className="img-fluid imageSplide"
-            />
+            <img src={S31} className="img-fluid imageSplide" />
           </li>
           <li className="splide__slide">
-            <img
-              src="src/assets/images/S30.webp"
-              className="img-fluid imageSplide"
-            />
+            <img src={S32} className="img-fluid imageSplide" />
           </li>
           <li className="splide__slide">
-            <img
-              src="src/assets/images/S31.webp"
-              className="img-fluid imageSplide"
-            />
-          </li>
-          <li className="splide__slide">
-            <img
-              src="src/assets/images/S32.webp"
-              className="img-fluid imageSplide"
-            />
-          </li>
-          <li className="splide__slide">
-            <img
-              src="src/assets/images/S33.webp"
-              className="img-fluid imageSplide"
-            />
+            <img src={S33} className="img-fluid imageSplide" />
           </li>
         </ul>
       </div>

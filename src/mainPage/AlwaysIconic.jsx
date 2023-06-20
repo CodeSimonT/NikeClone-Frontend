@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+// import AlwaysIconic from "./alwaysiconic.css";
 import {
   pic1,
   pic2,
@@ -23,18 +24,19 @@ import {
 
 function AlwaysIconic() {
   useEffect(() => {
-    var splide = new Splide(".splide", {
+    var splide = new Splide("#splidealwaysiconic", {
       perPage: 3,
       gap: "2rem",
       type: "loop",
       autoscroll: { speed: 1 },
       rewind: true,
+      pagination: false,
     });
     splide.mount();
   }, []);
 
   return (
-    <div className="splide my-5" id="splide">
+    <div className="splide my-5" id="splidealwaysiconic">
       <div className="splide__track">
         <ul className="splide__list">
           <li className="splide__slide">
