@@ -2,55 +2,61 @@ export const NavLinks = [
   {
     id: 1,
     title: "New & Featured",
+    toggle: "toggle1",
+    toggel1: "toggel2",
     Links: [
       {
         subTitle: "New & Featured",
+        subtoggel: "toggler1",
         subLinks: [
           {
-            hubTitle: "BestSellers",
+            hubTitle: "Best Sellers",
             link: "/BestSellers",
           },
           {
-            hubTitle: "LatestShoes",
+            hubTitle: "Latest Shoes",
             link: "/LatestShoes",
           },
           {
-            hubTitle: "NewArrivals",
+            hubTitle: "New Arrivals",
             link: "/NewArrivals",
           },
         ],
       },
       {
         subTitle: "Shop Icons",
+        subtoggel: "toggler2",
         subLinks: [
           {
-            hubTitle: "AirForce1",
+            hubTitle: "Air Force 1",
             link: "/AirForce1",
           },
           {
-            hubTitle: "AirJordan1",
+            hubTitle: "Air Jordan 1",
             link: "/AirJordan1",
           },
           {
-            hubTitle: "AirMax",
+            hubTitle: "Air Max",
             link: "/AirMax",
           },
         ],
       },
       {
         subTitle: "New for Men",
+        subtoggel: "toggler3",
         subLinks: [
           {
-            hubTitle: "NewForMen",
+            hubTitle: "New For Men",
             link: "/NewForMen",
           },
         ],
       },
       {
         subTitle: "New for Women",
+        subtoggel: "toggler4",
         subLinks: [
           {
-            hubTitle: "NewForWomen",
+            hubTitle: "New For Women",
             link: "/NewForWomen",
           },
         ],
@@ -60,9 +66,12 @@ export const NavLinks = [
   {
     id: 2,
     title: "Sale",
+    toggle: "toggle2",
+    toggel1: "toggel3",
     Links: [
       {
         subTitle: "Featured",
+        subtoggel: "toggler5",
         subLinks: [
           {
             hubTitle: "Shop All Sales",
@@ -84,6 +93,7 @@ export const NavLinks = [
       },
       {
         subTitle: "Men's Sale",
+        subtoggel: "toggler6",
         subLinks: [
           {
             hubTitle: "Shoes",
@@ -93,6 +103,7 @@ export const NavLinks = [
       },
       {
         subTitle: "Women's Sale",
+        subtoggel: "toggler7",
         subLinks: [
           {
             hubTitle: "Shoes",
@@ -171,5 +182,24 @@ export const FooterSubLinks = [
         title: "Sustainability",
       },
     ],
+  },
+];
+import { facebook, instagram, twitter } from "../assets/icons/icons.js";
+
+export const socials = [
+  {
+    id: 1,
+    image: facebook,
+    link: "https://www.facebook.com/vhokie.senoron/",
+  },
+  {
+    id: 2,
+    image: instagram,
+    link: "https://www.instagram.com/vhokie75/",
+  },
+  {
+    id: 3,
+    image: twitter,
+    link: "https://twitter.com/senoron_jr1875",
   },
 ];

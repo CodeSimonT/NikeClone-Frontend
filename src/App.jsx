@@ -32,6 +32,8 @@ import {
   MenSale,
   //
   WomenSale,
+  Login,
+  SignUp,
 } from "./pages";
 
 const App = () => {
@@ -72,6 +74,10 @@ const App = () => {
           <Route path="/MenSale" element={<MenSale />}></Route>
           {/* women sale */}
           <Route path="/WomenSale" element={<WomenSale />}></Route>
+          {/* login */}
+          <Route path="/Login" element={<Login />}></Route>
+          {/* signup */}
+          <Route path="/SignUp" element={<SignUp />}></Route>
         </Route>
         <Route path="*" element={<NotFound />}></Route>
       </Routes>
