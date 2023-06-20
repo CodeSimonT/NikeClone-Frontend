@@ -1,7 +1,27 @@
 import React, { useEffect } from "react";
-import App from "./App.css";
+import {
+  pic1,
+  pic2,
+  pic3,
+  pic4,
+  pic5,
+  pic6,
+  pic7,
+  pic8,
+  pic9,
+  pic10,
+  pic11,
+  pic12,
+  pic13,
+  pic14,
+  pic15,
+  pic16,
+  pic17,
+  pic18,
+  pic19,
+} from "../assets/images/index";
 
-function SneakrzCarousel() {
+function AlwaysIconic() {
   useEffect(() => {
     var splide = new Splide(".splide", {
       perPage: 3,
@@ -18,82 +38,64 @@ function SneakrzCarousel() {
       <div className="splide__track">
         <ul className="splide__list">
           <li className="splide__slide">
-            <img src="src/images/pic18.jpg" className="img-fluid imageSplide" />
+            <img src={pic18} className="img-fluid imageSplide" />
           </li>
 
           <li className="splide__slide">
-            <img
-              src="src/images/pic19.jpeg"
-              className="img-fluid imageSplide"
-            />
+            <img src={pic19} className="img-fluid imageSplide" />
           </li>
 
           <li className="splide__slide">
-            <img src="src/images/pic1.jpeg" className="img-fluid imageSplide" />
+            <img src={pic1} className="img-fluid imageSplide" />
           </li>
 
           <li className="splide__slide">
-            <img
-              src="src/images/pic10.jpeg"
-              className="img-fluid imageSplide"
-            />
+            <img src={pic10} className="img-fluid imageSplide" />
           </li>
           <li className="splide__slide">
-            <img src="src/images/pic9.jpeg" className="img-fluid imageSplide" />
+            <img src={pic9} className="img-fluid imageSplide" />
           </li>
           <li className="splide__slide">
-            <img src="src/images/pic2.jpg" className="img-fluid imageSplide" />
+            <img src={pic2} className="img-fluid imageSplide" />
           </li>
           <li className="splide__slide">
-            <img src="src/images/pic8.jpg" className="img-fluid imageSplide" />
+            <img src={pic8} className="img-fluid imageSplide" />
           </li>
           <li className="splide__slide">
-            <img src="src/images/pic11.jpg" className="img-fluid imageSplide" />
+            <img src={pic11} className="img-fluid imageSplide" />
           </li>
           <li className="splide__slide">
-            <img src="src/images/pic3.jpeg" className="img-fluid imageSplide" />
+            <img src={pic3} className="img-fluid imageSplide" />
           </li>
           <li className="splide__slide">
-            <img
-              src="src/images/pic12.jpeg"
-              className="img-fluid imageSplide"
-            />
+            <img src={pic12} className="img-fluid imageSplide" />
           </li>
           <li className="splide__slide">
-            <img
-              src="src/images/pic13.jpeg"
-              className="img-fluid imageSplide"
-            />
+            <img src={pic13} className="img-fluid imageSplide" />
           </li>
           <li className="splide__slide">
-            <img src="src/images/pic7.jpeg" className="img-fluid imageSplide" />
+            <img src={pic7} className="img-fluid imageSplide" />
           </li>
           <li className="splide__slide">
-            <img
-              src="src/images/pic13.jpeg"
-              className="img-fluid imageSplide"
-            />
+            <img src={pic4} className="img-fluid imageSplide" />
           </li>
           <li className="splide__slide">
-            <img src="src/images/pic16.jpg" className="img-fluid imageSplide" />
+            <img src={pic16} className="img-fluid imageSplide" />
           </li>
           <li className="splide__slide">
-            <img src="src/images/pic6.jpeg" className="img-fluid imageSplide" />
+            <img src={pic6} className="img-fluid imageSplide" />
           </li>
           <li className="splide__slide">
-            <img
-              src="src/images/pic15.jpeg"
-              className="img-fluid imageSplide"
-            />
+            <img src={pic15} className="img-fluid imageSplide" />
           </li>
           <li className="splide__slide">
-            <img src="src/images/pic14.jpg" className="img-fluid imageSplide" />
+            <img src={pic14} className="img-fluid imageSplide" />
           </li>
           <li className="splide__slide">
-            <img src="src/images/pic5.jpeg" className="img-fluid imageSplide" />
+            <img src={pic5} className="img-fluid imageSplide" />
           </li>
           <li className="splide__slide">
-            <img src="src/images/pic17.jpg" className="img-fluid imageSplide" />
+            <img src={pic17} className="img-fluid imageSplide" />
           </li>
         </ul>
       </div>
@@ -101,4 +103,4 @@ function SneakrzCarousel() {
   );
 }
 
-export default SneakrzCarousel;
+export default AlwaysIconic;
