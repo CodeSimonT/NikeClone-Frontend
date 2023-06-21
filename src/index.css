@@ -47,6 +47,9 @@ a {
 .whiteSmoke {
   color: whitesmoke;
 }
+.PageMinWidth {
+  width: 1500px;
+}
 /* end globals */
 
 /* nav design */

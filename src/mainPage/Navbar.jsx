@@ -3,7 +3,8 @@ import { NavLinks } from "../constants";
 import { Link } from "react-router-dom";
 import { bag, heart, menu, search, close } from "../assets/icons/icons.js";
 import { styling } from "../../style/style.js";
-import navMobileView from "../middleware/navMobileView";
+// import navMobileView from "../middleware/navMobileView";
+
 const Navbar = () => {
   // const [hover, setHover] = useState(false);
   return (
