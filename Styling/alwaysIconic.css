@@ -5,3 +5,8 @@
   --footerTextColor: #7e7e7e;
   --navbarSubTextColor: #bbbbbb;
 }
+
+.imageSplide {
+  width: 200px;
+  height: 200px;
+}
